@@ -1,0 +1,1480 @@
+.banner {
+    height: 500px;
+    background-repeat-x: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.banner .banner-line {
+    color: #fff;
+    font-size: 30px;
+    margin: 85px 50px 20px;
+    text-align: center
+}
+
+.banner header {
+    background: 0 0
+}
+
+.banner .form-cntr {
+    background-color: transparent
+}
+
+.banner .form-cntr .nav-list .nav-list-item {
+    margin: 0 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .9)
+}
+
+.banner .form-cntr .nav-list .nav-list-item.selected,
+.banner .form-cntr .nav-list .nav-list-item:hover {
+    color: #FFF
+}
+
+.banner .form-cntr .form-fields {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 3px
+}
+
+.banner .form-cntr .c-input-cntr {
+    border-color: rgba(0, 0, 0, .87)
+}
+
+.banner .form-cntr .c-input-cntr .c-input,
+.banner .form-cntr .c-input-cntr .input-label,
+.banner .form-cntr .date-label {
+    color: rgba(0, 0, 0, .87)
+}
+
+.banner .interpunct {
+    display: inline-block !important;
+    vertical-align: middle;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 5px;
+    height: 5px;
+    margin: 0 10px
+}
+
+.page-content {
+    width: 1280px;
+    text-align: center;
+    margin: auto
+}
+
+.page-content .main-cntr {
+    width: 100%;
+    text-align: left
+}
+
+.page-content .main-cntr .form-cntr {
+    position: relative !important;
+    top: -67px
+}
+
+.page-content .main-cntr .home-widgets-cntr {
+    margin: 50px 0
+}
+
+.page-content .main-cntr .home-widgets-cntr .home-widget {
+    margin-top: 50px
+}
+
+.page-content .main-cntr .home-widgets-cntr .home-widget:first-child {
+    margin-top: 0
+}
+
+.page-content .offer-section {
+    margin: 20px 0 0 20px;
+    text-align: initial
+}
+
+.page-content .offer-section .ad {
+    width: 300px
+}
+
+.page-content .offer-section .offer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    background-color: #FFF;
+    border-radius: 2px;
+    position: relative !important;
+    width: 300px;
+    height: 135px;
+    margin: 20px 0;
+    text-decoration: none;
+    padding: 10px
+}
+
+.page-content .offer-section .offer .u-box-header {
+    padding: 10px 25px;
+    background: #FEF9F7;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 500;
+    font-size: 16px
+}
+
+.page-content .offer-section .offer .u-box-result {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.page-content .offer-section .offer img {
+    width: 100%;
+    height: 100%
+}
+
+.page-content .offer-section .offer.image-offer {
+    padding: 0;
+    cursor: pointer
+}
+
+.page-content .offer-section .offer .offer-title {
+    font-size: 0
+}
+
+.page-content .offer-section .offer .offer-title .title-text {
+    font-size: 16px;
+    color: #E8831D;
+    width: 85%;
+    line-height: 18px
+}
+
+.page-content .offer-section .offer .offer-title .offer-product-icon {
+    position: absolute !important;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E8831D;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px
+}
+
+.page-content .offer-section .offer .offer-description {
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, .87)
+}
+
+.page-content .offer-section .offer .know-more {
+    position: absolute !important;
+    right: 10px;
+    bottom: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1fb0de
+}
+
+.page-content .offer-section .offer:first-of-type {
+    margin-top: 10px
+}
+
+.page-content .trains-card {
+    width: 300px;
+    height: 260px;
+    margin: 0 20px;
+    background-color: #FFF;
+    border: 1px solid #e7e7e7;
+    cursor: pointer;
+    border-radius: 2px
+}
+
+.page-content .trains-card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15)
+}
+
+.page-content .trains-card .trains-card-image {
+    height: 160px;
+    background-size: cover
+}
+
+.page-content .trains-card .trains-card-image img {
+    width: 100%;
+    height: 100%
+}
+
+.page-content .trains-card .trains-card-body {
+    padding: 15px 15px 10px
+}
+
+.page-content .trains-card .trains-card-text {
+    line-height: 18px;
+    height: 54px
+}
+
+.page-content .trains-card .trains-card-heading {
+    color: rgba(0, 0, 0, .64);
+    font-weight: 600
+}
+
+.page-content .trains-card .trains-card-detail {
+    color: rgba(0, 0, 0, .38)
+}
+
+.page-content .trains-card .train-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.page-content .trains-card .know-more {
+    color: #EC5B24;
+    font-weight: 600
+}
+
+.page-content .trains-card .news-date {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .64);
+    margin-top: 3px
+}
+
+.page-content .review-cntr {
+    display: flex;
+    width: 1080px;
+    height: 140px;
+    margin-right: 72px
+}
+
+.page-content .review-cntr .review-content {
+    padding: 36px 0 0 10px;
+    position: relative !important
+}
+
+.page-content .review-cntr .review-data {
+    color: rgba(0, 0, 0, .38)
+}
+
+.page-content .review-cntr .ixi-icon-review {
+    font-size: 102px;
+    color: rgba(0, 0, 0, .12)
+}
+
+.page-content .review-cntr .review-username {
+    position: absolute !important;
+    bottom: 0
+}
+
+.page-content .review-cntr .ixi-icon-star.gold {
+    color: gold
+}
+
+.page-content .review-cntr .ixi-icon-star.gray {
+    color: rgba(0, 0, 0, .12)
+}
+
+.c-accordion-item {
+    color: rgba(0, 0, 0, .87)
+}
+
+.c-accordion-item .accordion-ftr,
+.c-accordion-item .accordion-hdr {
+    background-color: #E1E1E1;
+    color: rgba(0, 0, 0, .64);
+    font-weight: 600
+}
+
+.c-accordion-item .accordion-body {
+    padding: 10px 15px
+}
+
+.c-accordion-item .accordion-ftr .accordion-ftr-cntnt,
+.c-accordion-item .accordion-hdr .accordion-hdr-cntnt {
+    padding: 0 15px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.c-accordion-item .accordion-hdr.collapsible {
+    cursor: pointer
+}
+
+.c-accordion-item .accordion-hdr .accordion-hdr-cntnt {
+    line-height: 40px
+}
+
+.c-accordion-item .accordion-hdr .ixi-icon-chevron {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform
+}
+
+.c-accordion-item.collapsible {
+    position: relative
+}
+
+.c-accordion-item.collapsible .accordion-hdr .accordion-hdr-cntnt {
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -webkit-calc(100% - 40px);
+    width: calc(100% - 40px)
+}
+
+.c-accordion-item.collapsible .accordion-switch {
+    display: inline-block;
+    position: absolute;
+    width: 108px;
+    right: 7px;
+    top: 12px;
+    font-size: 13px
+}
+
+.c-accordion-item.collapsible .accordion-switch .c-switch {
+    vertical-align: middle;
+    margin: 0 5px
+}
+
+.c-accordion-item.diff-collapsed .accordion-hdr {
+    background-color: #FFF;
+    color: rgba(0, 0, 0, .87);
+    position: relative
+}
+
+.c-accordion-item.diff-collapsed .accordion-hdr .accordion-hdr-cntnt {
+    width: 100%
+}
+
+.c-accordion-item.diff-collapsed .accordion-hdr .ixi-icon-chevron {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.c-accordion-item.diff-collapsed.expanded .accordion-hdr {
+    background-color: #E1E1E1;
+    color: rgba(0, 0, 0, .64)
+}
+
+.c-accordion-item.diff-collapsed.expanded .accordion-hdr .accordion-hdr-cntnt {
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: -webkit-calc(100% - 40px);
+    width: calc(100% - 40px)
+}
+
+.c-accordion-item.diff-collapsed.expanded .accordion-hdr .ixi-icon-chevron {
+    position: static
+}
+
+.c-accordion-item.expanded .accordion-hdr {
+    background-color: #E1E1E1;
+    color: rgba(0, 0, 0, .64)
+}
+
+.c-accordion-item.expanded .accordion-hdr .ixi-icon-chevron {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg)
+}
+
+.c-carousel--shady {
+    position: relative !important;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.c-carousel--shady .carousel-heading {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px
+}
+
+.c-carousel--shady .slider-wrapper {
+    position: relative !important
+}
+
+.c-carousel--shady .slider-wrapper .slider-container {
+    margin: 0 auto;
+    max-width: 1024px;
+    -webkit-transition: .5s transform;
+    -o-transition: .5s transform;
+    transition: .5s transform;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.c-carousel--shady .slider-wrapper .slider-container .carousel-item {
+    display: inline-block !important;
+    vertical-align: top;
+    white-space: normal;
+    height: 100%;
+    -webkit-transition: .5s opacity;
+    -o-transition: .5s opacity;
+    transition: .5s opacity;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: .2
+}
+
+.c-carousel--shady .slider-wrapper .slider-container .carousel-item.central-item {
+    opacity: 1
+}
+
+.c-carousel--shady .slider-wrapper .nav-btn {
+    position: absolute !important;
+    top: 40%;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #FFF;
+    color: rgba(0, 0, 0, .64);
+    box-shadow: 0 2px 64px 0 rgba(208, 208, 208, .5);
+    z-index: 2;
+    cursor: pointer
+}
+
+.c-carousel--shady .slider-wrapper .nav-btn.prev-nav {
+    left: 40px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.c-carousel--shady .slider-wrapper .nav-btn.next-nav {
+    right: 40px
+}
+
+.c-carousel--shady .slider-wrapper .nav-btn .arrow-icon {
+    position: relative !important;
+    top: 17px;
+    font-size: 16px
+}
+
+.e-catering-banner-cntr {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center
+}
+
+.e-catering-banner-cntr.bg-white {
+    background: #FFF;
+    padding: 10px
+}
+
+.e-catering-banner-cntr.mt-40 {
+    margin-top: 40px;
+    margin-bottom: 0
+}
+
+.e-catering-banner-cntr .c-btn {
+    width: auto;
+    height: auto
+}
+
+.e-catering-banner-cntr .my-food {
+    margin-left: 150px
+}
+
+.e-catering-banner-cntr .my-food.mt-90 {
+    margin-left: 60px
+}
+
+.e-catering-banner-cntr .my-food .c-btn {
+    white-space: nowrap
+}
+
+.e-catering-banner-cntr .my-food .c-btn.secondary {
+    font-weight: 300;
+    border-radius: 4px
+}
+
+.e-catering-banner-cntr .order-now .c-btn {
+    white-space: nowrap;
+    margin-left: 20px;
+    font-weight: 300;
+    border-radius: 4px
+}
+
+.e-catering-banner-cntr .irctc-food-icon {
+    height: 76px
+}
+
+.e-catering-banner-cntr .info-cntr {
+    white-space: nowrap;
+    margin-left: 25px
+}
+
+.e-catering-banner-cntr .info-cntr .food-heading {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.e-catering-banner-cntr .info-cntr .food-subheading {
+    color: #898380;
+    font-size: 14px;
+    line-height: 1.43
+}
+
+.app-download-widget {
+    display: flex;
+    align-items: center;
+    height: 270px;
+    width: 1280px;
+    margin: 2% auto;
+    padding: 0 1%;
+    border-radius: 2px;
+    border: 1px solid rgba(213, 0, 0, .1);
+    background-color: #F1F7FF
+}
+
+.app-download-widget .features {
+    display: inline;
+    margin: 0 0 0 7px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    color: rgba(0, 0, 0, .87)
+}
+
+.app-download-widget .row-position {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between
+}
+
+.app-download-widget .row-position .logo-holder {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center
+}
+
+.app-download-widget .row-position .logo-holder>img {
+    margin-top: 10px
+}
+
+.app-download-widget .column {
+    padding: 0 30px
+}
+
+.app-download-widget .column .for-padding {
+    margin: -4px 0 15px 5px
+}
+
+.app-download-widget .column .for-padding .ixi-icon-tick-circle-filled {
+    color: #EC5B24;
+    font-size: 16px
+}
+
+.app-download-widget .column .extra {
+    margin: 30px 5px
+}
+
+.app-download-widget .column .rating {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+    margin-bottom: 15px;
+    margin-left: 3px
+}
+
+.app-download-widget .column .align-center {
+    align-items: center
+}
+
+.app-download-widget .column .header {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, .87);
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 5px
+}
+
+.app-download-widget .column ::placeholder {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87)
+}
+
+.app-download-widget .column .row {
+    display: flex;
+    margin-top: 10px
+}
+
+.app-download-widget .column .row .c-input-cntr .c-input {
+    margin-left: 40px;
+    width: 87%;
+    font-size: 20px
+}
+
+.app-download-widget .column .row .c-input-cntr.error .focus {
+    border-bottom-color: #ed5a26
+}
+
+.app-download-widget .column .row .whatsapp-icon {
+    margin-right: 4px;
+    margin-left: -5px
+}
+
+.app-download-widget .column .row .whatsapp-number-btn {
+    height: 40px;
+    width: 105px;
+    background-color: #ed5a26;
+    border: none;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+    outline: 0;
+    cursor: pointer
+}
+
+.app-download-widget .column .row .whatsapp-number {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #000;
+    outline: 0;
+    border-radius: 0;
+    font-size: 18px;
+    background-image: url(/rt-train/mobi/img/trainHome/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: 2%
+}
+
+.app-download-widget .column .row .border-bottom {
+    border-bottom-color: #000 !important
+}
+
+.app-download-widget .column .row .focus {
+    border: 2px solid #ed5a26 !important
+}
+
+.app-download-widget .column.app-download-col .col-desc {
+    font-weight: 500;
+    font-size: 16px
+}
+
+.app-download-widget .column.app-download-col .row--store-link-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 15px;
+    align-items: center;
+    align-self: center
+}
+
+.app-download-widget .column.app-download-col .row--store-link-container a {
+    font-size: 0;
+    padding-top: 10px
+}
+
+.app-download-widget .column.app-download-col .row--store-link-container .store-links {
+    display: flex;
+    flex-direction: column
+}
+
+.app-download-widget .column.app-download-col .qr-code-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #FFF;
+    padding: 5px
+}
+
+.app-download-widget .column .download-widget-points {
+    padding-left: 50px;
+    margin-top: 0
+}
+
+.app-download-widget .column .download-widget-points .download-widget-point {
+    margin-left: 0;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.app-download-widget .column .app-store-reviews {
+    display: flex;
+    padding: 15px 0 0 20px;
+    align-items: center
+}
+
+.app-download-widget .column .app-store-reviews .reviews-img {
+    object-fit: contain;
+    margin-right: 10px
+}
+
+.app-download-widget .column .app-store-reviews .rating-box {
+    padding: 10px;
+    text-align: center;
+    background-color: #278A48;
+    color: #FFF;
+    border-radius: 10px;
+    line-height: 1.3
+}
+
+.app-download-widget .column .app-store-reviews .rating-box .rating-count {
+    font-weight: 700;
+    font-size: 20px
+}
+
+.app-download-widget .column .app-store-reviews .rating-box .rating-subheading {
+    font-size: 8px;
+    padding-top: 5px;
+    letter-spacing: .3em;
+    text-transform: uppercase
+}
+
+.app-download-widget .column .app-store-reviews .reviews-and-stars {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.app-download-widget .column .app-store-reviews .reviews-and-stars .rating-text {
+    font-size: 14px
+}
+
+.app-download-widget .link-sent-popup {
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #559B09
+}
+
+.app-download-widget .link-sent-loader {
+    height: 170px;
+    width: 400px
+}
+
+.app-download-widget .error-msg {
+    color: red;
+    background-color: pink;
+    width: 403px;
+    text-align: center
+}
+
+.rd-container.train-cal {
+    margin-left: -210px;
+    height: 360px
+}
+
+.rd-container.train-cal .rd-month {
+    height: 330px !important
+}
+
+.rd-container.train-cal:after,
+.rd-container.train-cal:before {
+    left: 225px
+}
+
+.trains-home-page .banner {
+    height: 550px;
+    position: relative !important
+}
+
+.trains-home-page .banner .banner-img {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    background-repeat-x: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 550px
+}
+
+.trains-home-page .banner .banner-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3)
+}
+
+.trains-home-page .banner .banner-img.hide-img {
+    opacity: 0
+}
+
+.trains-home-page .banner .nav-overlay {
+    padding: 0 0 10%;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .45), rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .45), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .45), rgba(0, 0, 0, 0))
+}
+
+.trains-home-page .banner .banner-city,
+.trains-home-page .banner .banner-line {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0
+}
+
+.trains-home-page .banner .banner-line {
+    margin: 0;
+    top: 150px
+}
+
+.trains-home-page .banner .banner-line .compareBookWhite,
+.trains-home-page .banner .banner-line .text {
+    vertical-align: middle
+}
+
+.trains-home-page .banner .banner-line .text {
+    display: inline-block !important;
+    margin-left: 20px
+}
+
+.trains-home-page .banner .banner-line .text>* {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600
+}
+
+.trains-home-page .banner .banner-city {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    top: 210px;
+    margin-left: 1100px
+}
+
+.trains-home-page .banner .banner-city .cntry {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: -5px
+}
+
+.trains-home-page .banner .banner-city .city-cntr {
+    display: inline-block !important;
+    cursor: default
+}
+
+.trains-home-page .banner .trains-search-form .search {
+    margin-top: 6px
+}
+
+.trains-home-page .banner .train-form-wrapper {
+    padding: 20px 0;
+    width: 1280px;
+    
+}
+
+.trains-home-page .banner .train-form-wrapper .form-fields {
+    padding: 12px 20px 15px
+}
+
+.trains-home-page .banner .train-form-wrapper .form-fields .autocompleter-results {
+    width: 300px
+}
+
+.trains-home-page .banner .train-form-wrapper .form-fields .autocompleter-scroll-cntr {
+    max-height: 310px;
+    overflow-y: auto
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-info {
+    display: flex;
+    width: 420px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .05);
+    border-right: 1px dashed rgba(0, 0, 0, .2)
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-fields {
+    padding: 6px 20px;
+    width: 860px
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-fields .search {
+    margin-top: 12px
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-image {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-desc {
+    width: 80%;
+    font-size: 12px
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-desc-heading {
+    color: rgba(0, 0, 0, .64)
+}
+
+.trains-home-page .banner .train-form-wrapper .train-section-desc-content {
+    color: rgba(0, 0, 0, .38)
+}
+
+.trains-home-page .banner .train-form-wrapper .train-form-cntr {
+    background-color: #fff;
+    display: flex;
+    height: 75px;
+    border-radius: 3px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .sub-heading .benifits:first-child:before,
+.trains-home-page .faq-accordian-section .hide-faq {
+    display: none
+}
+
+.trains-home-page .banner .train-form-wrapper .pnr-number,
+.trains-home-page .banner .train-form-wrapper .train-number,
+.trains-home-page .banner .train-form-wrapper .train-station-name-code {
+    margin-left: 40px
+}
+
+.trains-home-page .banner .train-form-wrapper .c-input-cntr {
+    border-color: rgba(0, 0, 0, .12)
+}
+
+.trains-home-page .banner .train-form-wrapper .c-input-cntr .input-label,
+.trains-home-page .banner .train-form-wrapper .date-label {
+    color: rgba(0, 0, 0, .64)
+}
+
+.trains-home-page .banner .train-form-wrapper .swap-icon {
+    color: rgba(0, 0, 0, .64);
+    margin: 0 40px;
+    width: 26px;
+    height: 26px;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1
+}
+
+.trains-home-page .banner .train-form-wrapper .date,
+.trains-home-page .banner .train-form-wrapper .dstn,
+.trains-home-page .banner .train-form-wrapper .orgn {
+    width: 260px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home {
+    background: url(https://images.ixigo.com/image/upload/fcRelated/248ab5019f1b1852f028dc376c786d3c-zrgqg.png) no-repeat;
+    margin-top: 20px;
+    padding: 12px 12px 0;
+    height: 69px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading {
+    margin: auto;
+    width: 280px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, .87)
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .fc-nudge-shield {
+    height: 20px;
+    margin-left: 10px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-button {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 0, 0, .32);
+    border-radius: 3px;
+    color: transparent;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 2px 10px 0 0
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-button .check-icon {
+    position: absolute !important;
+    left: 1px;
+    top: -2px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+    background: #EC5B24;
+    transform: translate(-50%, -50%) scale(0);
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-button.selected {
+    color: #000;
+    border-color: #EC5B24;
+    transition-duration: .35s;
+    -webkit-transition-duration: .35s;
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    background: #EC5B24
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-button.selected:before {
+    transition-duration: .35s;
+    -webkit-transition-duration: .35s;
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-list-item {
+    padding: 0
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .heading .checkbox-list-item .label {
+    margin-left: 0;
+    top: 0;
+    font-size: 16px;
+    letter-spacing: 0
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .sub-heading {
+    margin: 10px auto;
+    width: fit-content;
+    height: 16px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .sub-heading .benifits {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, .7);
+    margin-right: 30px
+}
+
+.trains-home-page .banner .train-form-wrapper .render-free-cal-home .sub-heading .benifits:before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    top: 7px;
+    left: -15px;
+    background: #CCC;
+    content: ' '
+}
+
+.trains-home-page .banner .train-form-wrapper .pnr-number,
+.trains-home-page .banner .train-form-wrapper .train-number,
+.trains-home-page .banner .train-form-wrapper .train-station-name-code {
+    width: 440px
+}
+
+.trains-home-page .banner .train-form-wrapper .clear-input:hover {
+    color: rgba(0, 0, 0, .64)
+}
+
+.trains-home-page .banner .train-form-wrapper .date {
+    margin: 0 50px
+}
+
+.trains-home-page .banner .train-form-wrapper .search {
+    width: 180px;
+    float: right
+}
+
+.trains-home-page .banner .train-form-wrapper input::placeholder {
+    color: rgba(0, 0, 0, .38)
+}
+
+.trains-home-page .feature-list {
+    display: flex;
+    position: relative !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    background-color: #FFF;
+    border-radius: 2px;
+    top: -30px;
+    width: 1280px;
+    margin: 0 auto
+}
+
+.trains-home-page .feature-list .u-box-header {
+    padding: 10px 25px;
+    background: #FEF9F7;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 500;
+    font-size: 16px
+}
+
+.trains-home-page .feature-list .u-box-result {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.trains-home-page .feature-list .list-item {
+    flex-basis: 30%;
+    padding: 20px
+}
+
+.trains-home-page .feature-list .list-item .heading {
+    font-size: 20px;
+    color: #EC5B24;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.trains-home-page .feature-list .list-item .heading .text {
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px;
+    padding-left: 8px
+}
+
+.trains-home-page .feature-list .list-item .content {
+    color: rgba(0, 0, 0, .64);
+    text-align: center
+}
+
+.trains-home-page .feature-list .list-item-max {
+    flex-basis: 40%
+}
+
+.trains-home-page .train-widget-cntr {
+    margin-top: 30px;
+    padding: 40px 0
+}
+
+.trains-home-page .train-widget-cntr .carousel-heading {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 30px
+}
+
+.trains-home-page .review-widget-cntr .carousel-heading {
+    margin-bottom: 0
+}
+
+.trains-home-page .page-content .offer-section {
+    margin-left: 0
+}
+
+.trains-home-page .page-content .offer-section .offer {
+    height: auto;
+    width: auto;
+    margin: 0
+}
+
+.trains-home-page .page-content .offer-section .offer:first-of-type {
+    margin: 0 20px
+}
+
+.trains-home-page .page-content .offer-section .offer img {
+    display: block !important;
+    width: 300px;
+    height: 250px
+}
+
+.trains-home-page .section-card {
+    margin: 40px auto;
+    max-width: 1280px;
+    padding: 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    background-color: #fff
+}
+
+.trains-home-page .section-card.section-card-transparent {
+    padding: 0 40px 20px;
+    background: 0 0;
+    box-shadow: none
+}
+
+.trains-home-page .section-heading {
+    text-align: center;
+    margin: 0 0 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 800
+}
+
+.trains-home-page .popular-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -15px 0
+}
+
+.trains-home-page .popular-card-container .popular-card {
+    flex: 0 0 21%;
+    margin: 15px 0
+}
+
+.trains-home-page .popular-card-container .popular-card .u-link {
+    text-transform: none
+}
+
+.trains-home-page .popular-card-container .popular-card .popular-card-inner {
+    max-width: 80%
+}
+
+.trains-home-page .static-interlinkings {
+    position: relative !important;
+    width: 1280px;
+    margin: 0 auto 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    background-color: #FFF;
+    border-radius: 2px;
+    padding: 1px 0 35px
+}
+
+.trains-home-page .static-interlinkings-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #EC5B24;
+    margin-bottom: 30px
+}
+
+.trains-home-page .home-static-interlinks-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0 0 0 70px
+}
+
+.trains-home-page .home-static-interlink {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    border: 1px solid #d3d3d3;
+    border-radius: 5px
+}
+
+.trains-home-page .faq-accordian-section .c-accordion-item+.c-accordion-item,
+.trains-home-page .faq-accordian-section .know-more,
+.trains-home-page .faq-accordian-section .show-faq {
+    border-top: 1px solid rgba(0, 0, 0, .12)
+}
+
+.trains-home-page .interlink__content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px
+}
+
+.trains-home-page .interlink__content img {
+    border-radius: 30px
+}
+
+.trains-home-page .interlink__content_title {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.trains-home-page .interlink__content_desc {
+    font-size: 12px
+}
+
+.trains-home-page .ixi-icon-chevron {
+    font-size: 16px;
+    color: #5C5C5C
+}
+
+.trains-home-page .know-more {
+    text-align: right;
+    cursor: pointer;
+    color: #EC5B24;
+    font-weight: 700
+}
+
+.trains-home-page .faq-accordian-section .faq-container {
+    padding: 0 15px;
+    margin-top: 20px
+}
+
+.trains-home-page .faq-accordian-section .c-accordion-item .accordion-hdr .faq-heading-question,
+.trains-home-page .faq-accordian-section .faq-container .faq-ques-cont {
+    color: rgba(0, 0, 0, .87);
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600
+}
+
+.trains-home-page .faq-accordian-section .c-accordion-item {
+    box-shadow: none
+}
+
+.trains-home-page .faq-accordian-section .c-accordion-item .accordion-body {
+    padding-top: 0
+}
+
+.trains-home-page .faq-accordian-section .c-accordion-item .accordion-hdr {
+    background: 0 0
+}
+
+.trains-home-page .faq-accordian-section .know-more {
+    padding-top: 10px
+}
+
+.trains-home-page .why-ixigo-heading {
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 50px
+}
+
+.trains-home-page .why-ixigo-subheading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.trains-home-page .why-ixigo-subheading>h3 {
+    margin: 0 15px 0 0;
+    font-size: 18px
+}
+
+.trains-home-page .why-ixigo-container {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -25px auto;
+    max-width: 1110px
+}
+
+.trains-home-page .why-ixigo-container .widget-item-content-row {
+    flex: 0 0 47%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px 0
+}
+
+.trains-home-page .why-ixigo-container .widget-item-content-text {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 75%;
+    margin-top: -5px;
+    white-space: initial
+}
+
+.trains-home-page .why-ixigo-container .tile-heading {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700
+}
+
+.trains-home-page .why-ixigo-container .tile-subheading {
+    font-size: 16px
+}
+
+.trains-home-page .schema-date {
+    color: rgba(0, 0, 0, .64);
+    font-size: 14px;
+    line-height: 1.43
+}
+
+.trains-home-page .about-ixigo-container {
+    position: relative
+}
+
+.trains-home-page .about-ixigo-container .about-ixigo-html {
+    height: 400px;
+    overflow: hidden
+}
+
+.trains-home-page .about-ixigo-container.expanded .about-ixigo-html {
+    height: auto
+}
+
+.trainA2B-routes-container {
+    position: relative !important;
+    margin: 0 auto 50px;
+    background-color: #FFF;
+    width: 1280px;
+    border-radius: 2px;
+    padding: 1px 0 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3)
+}
+
+.trainA2B-routes-header {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #EC5B24;
+    margin-bottom: 30px
+}
+
+.trainA2B-routes-list-container {
+    padding: 0 0 0 90px
+}
+
+.trainA2B-routes-list {
+    display: inline-block;
+    width: 33%;
+    line-height: 3em;
+    padding-bottom: 10px;
+    padding-left: 12px
+}
+
+.trainA2B-routes-list-image {
+    display: inline-block;
+    position: absolute;
+    margin-left: -60px;
+    border-radius: 26px;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px
+}
+
+.trainA2B-routes-list-header {
+    margin-bottom: -18px;
+    font-weight: 600
+}
+
+.trainA2B-routes-links {
+    text-decoration: none;
+    color: #EC5B24
+}

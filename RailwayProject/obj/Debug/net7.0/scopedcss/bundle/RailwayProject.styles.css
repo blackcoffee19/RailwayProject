@@ -1,0 +1,63 @@
+/* _content/RailwayProject/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-wqf7s99blt] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-wqf7s99blt] {
+  color: #0077cc;
+}
+
+.btn-primary[b-wqf7s99blt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-wqf7s99blt], .nav-pills .show > .nav-link[b-wqf7s99blt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-wqf7s99blt] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-wqf7s99blt] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-wqf7s99blt] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-wqf7s99blt] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-wqf7s99blt] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.header-nav-link[b-wqf7s99blt] {
+    font-family: 'Space Mono', monospace;
+    color: rgba(0,0,0,.87);
+    font-weight:500;
+    font-size:15px
+}
+    .header-nav-link.active[b-wqf7s99blt] {
+        color: #EC5B24;
+    }
+    .header-nav-link:hover[b-wqf7s99blt] {
+        color: #EC5B24;
+        font-weight:800
+    }

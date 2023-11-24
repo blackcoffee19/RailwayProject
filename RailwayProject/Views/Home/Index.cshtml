@@ -1,0 +1,253 @@
+﻿<div class="banner">
+    <div class="banner-line">
+        <img src="https://images.ixigo.com/rt-train/pc/img/trainsHome/compareBookWhite.png" width="71"
+             height="71" class="compareBookWhite" alt="Search. Book. Go." />
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center banner-forms" >
+        <ul class="nav nav-tabs z-2  mt-5 bg-white" id="myTab" role="tablist" style="width: 800px; border-radius:4px 4px 0 0">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link tb-link active" data-bs-toggle="tab" style="border-radius: 4px 0 0 0"  data-bs-target="#trainSearchForm" type="button" role="tab" aria-controls="trainSearchForm" aria-selected="true">
+                    <span class="text-uppercase fw-700">Booking Trains</span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link tb-link rounded-0" data-bs-toggle="tab" data-bs-target="#pnrStatusForm" type="button" role="tab" aria-controls="pnrStatusForm" aria-selected="false">
+                    <span class="text-uppercase fw-700">Running Status</span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link tb-link rounded-0" data-bs-toggle="tab" data-bs-target="#stationSearchForm" type="button" role="tab" aria-controls="stationSearchForm" aria-selected="false">
+                    <span class="text-uppercase fw-700">Search Station</span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link tb-link rounded-0" data-bs-toggle="tab" data-bs-target="#trainNameNumberSearchForm" type="button" role="tab" aria-controls="trainNameNumberSearchForm" aria-selected="false">
+                    <span class="text-uppercase fw-700">Search Train</span>
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content z-2 bg-white pt-3 px-4" id="myTabContent" style="height: 200px;width: 800px;border-radius: 0 0 4px 4px;">
+            <div id="trainSearchForm" class="tab-pane fade show active w-100" role="tabpanel" tabindex="0">
+                <div class="d-flex flex-row justify-content-center align-items-center">
+                    <form class="row">
+                        <div class="col-md-4 ">
+                            <label for="gaDi" class="form-label">From</label>
+                            <input id="gaDi" name="gaDi" class="form-control" type="text" />
+                        </div>
+                        <div class="col-md-4">
+                            <label for="gaDen" class="form-label">To</label>
+                            <input type="text" class="form-control" id="gaDen" name="gaDen" />
+                        </div>
+                        <div class="col-md-3 mx-auto">
+                            <label for="ngayXP" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="ngayXP" name="ngayXP" />
+                        </div>
+                        <div class="col-12 mt-2">
+                            <button type="submit" class="text-uppercase btn btn-orange">
+                                Search
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="pnrStatusForm" class="tab-pane fade w-100 " role="tabpanel" tabindex="0">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="https://images.ixigo.com/rt-train/pc/img/trainsHome/pnr.png" />
+                        <div class="">
+                            <div class="">Search by Train name and number</div>
+                            <small class="text-secondary">
+                                Get seat availability, running status, route,
+                                fare, coach position and seat map.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <form class="row gx-3 gy-2">
+                            <div class="col-md-9">
+                                <label for="name" class="form-label">TRAIN NAME/NUMBER</label>
+                                <input type="text" class="form-control" name="name" placeholder="Enter the train name or number" />
+                            </div>
+                            <div class="col-3 align-self-end">
+                                <button class="btn btn-orange " type="submit">
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="stationSearchForm" class="tab-pane fade w-100 " role="tabpanel" tabindex="0">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="https://images.ixigo.com/rt-train/pc/img/trainsHome/pnr.png" />
+                        <div class="">
+                            <div class="">Search by Station</div>
+                            <small class="text-secondary">
+                                Get list of all trains passing from a station.
+                                Check Station’s rating on Cleanliness, Safety and food.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <form class="row ">
+                            <div class="col-md-9">
+                                <label for="station" class="form-label">STATION NAME/CODE</label>
+                                <input type="text" class="form-control" name="station" placeholder="Enter the station name or code" />
+                            </div>
+                            <div class="col-3 align-self-end">
+                                <button class="btn btn-orange " type="submit">
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="trainNameNumberSearchForm" class="tab-pane fade w-100" role="tabpanel" tabindex="0">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="https://images.ixigo.com/rt-train/pc/img/trainsHome/pnr.png" />
+                        <div class="">
+                            <div class="">Search by Train name and number</div>
+                            <small class="text-secondary">Get running status</small>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <form class="row gx-3 gy-2">
+                            <div class="col-md-9">
+                                <label for="train" class="form-label">TRAIN NAME/NUMBER</label>
+                                <input type="text" class="form-control" name="train" placeholder="Enter the train name or number" />
+                            </div>
+                            <div class="col-3 align-self-end">
+                                <button class="btn btn-orange " type="submit">
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="row pt-4 mx-0 mb-3">
+    <h2 class="mt-2 text-center">IRCTC Train Ticket Booking on ixigo</h2>
+    <div class="text-center mt-2">
+        <h4 class="text-center">IRCTC Authorised Partner</h4>
+    </div>
+    <div class="col-lg-8 col-md-10 col-12 mx-auto row mt-4">
+        <div class="col-6 d-flex flex-row align-items-center">
+            <img  src="https://images.ixigo.com/image/upload/train/ecb835b55223186c49d55750b422ed10-oscpe.png"  width="70" height="70" />
+            <div class="ms-4">
+                <h5><span>&#8377;</span>0 Payment Gateway Fee on Payments via UPI</h5>
+            </div>
+        </div>
+        <div class="col-6 d-flex flex-row align-items-center">
+            <img src="https://images.ixigo.com/image/upload/801ca10aa0964d95bdcd76df1573b5e1-hlzsy.png" width="70" height="70" />
+            <div class="ms-4">
+                <h5>ixigo Assured: Free Cancellation of Train Tickets</h5>
+            </div>
+        </div>
+        <div class="col-6 d-flex flex-row align-items-center">
+            <img src="https://images.ixigo.com/image/upload/train/a21427142a38e7331574b034aa4a687a-lwpxr.png" width="70" height="70" />
+            <div class="ms-4">
+                <h5>Instant Refund on Indian Railway Reservation Cancellation</h5>
+            </div>
+        </div>
+        <div class="col-6 d-flex flex-row align-items-center">
+            <img src="https://images.ixigo.com/image/upload/train/d522fcf3866c18b343060ab3cb49b3b1-xnmqx.png" width="70" height="70" />
+            <div class="ms-4">
+                <h5>24*7 Support for IRCTC Train Ticket Booking</h5>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div class="mt-3 row">
+    <div class="col-10 card rounded-0 mx-auto" style="box-shadow: 0 0 10px rgba(0,0,0,.3);">
+        <div class="card-body">
+            <h2 class="text-center text-orange">More Train Information</h2>
+            <div class="row">
+                <div class="mt-3 col-12 row">
+                    <a href="https://www.ixigo.com/trains/train-seat-availability" class="card text-decoration-none col-3 mx-auto text-secondary">
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <img src="https://images.ixigo.com/image/upload/trains/86db5d79396ba8e8be30ae63b1c9961e-eeaul.png" height="56" width="56" />
+                                <div class="ms-2">
+                                    <div class="">Train Seat Availability</div>
+                                    <div class="">Check train seat availability online</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="interlink__icon"><span class="ixi-icon-chevron"></span></div>
+                    </a>
+                    <a href="https://www.ixigo.com/pnr-status-enquiry" class="card text-decoration-none col-3 mx-auto text-secondary">
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <img src="https://images.ixigo.com/image/upload/trains/2e704451e3551cf6f85c8f5d08c3e1f8-vangr.png" height="56" width="56" />
+                                <div class="ms-2">
+                                    <div class="">PNR Status Enquiry</div>
+                                    <div class="">Check PNR Status &amp; ticket booking</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="interlink__icon"><span class="ixi-icon-chevron"></span></div>
+                    </a>
+                    <a href="https://www.ixigo.com/trains/train-running-status" class="card text-decoration-none col-3 mx-auto text-secondary">
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <img src="https://images.ixigo.com/image/upload/trains/10dcd8077f244965638a6a483b97451f-umnfy.png"
+                                     height="56" width="56" />
+                                <div class="ms-2">
+                                    <div class="">Train Running Status</div>
+                                    <div class="">Check IRCTC live train running status</div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="interlink__icon"><span class="ixi-icon-chevron"></span></div>
+                </a>
+                </div>
+                <div class="mt-3 col-12 row">
+                    <a href="https://www.ixigo.com/trains/irctc-cancellation-charges-icms" class="card text-decoration-none col-3 mx-auto text-secondary">
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <img src="https://images.ixigo.com/image/upload/trains/555412c877f9225e51b40c6b28e40410-rxehn.png" height="56" width="56" />
+                                <div class="ms-2">
+                                    <div class="">IRCTC Cancellation Chargess</div>
+                                    <div class="">Cancellation Rules for Train Tickets</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="interlink__icon"><span class="ixi-icon-chevron"></span></div>
+                    </a>
+                    <a href="https://www.ixigo.com/trains/tatkal-railway-reservation" class="card text-decoration-none col-3 mx-auto text-secondary">
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <img src="https://images.ixigo.com/image/upload/trains/551e245f7ea23fdd947331d0aeb1a4f8-stzha.png" height="56" width="56" />
+                                <div class="ms-2">
+                                    <div class="">Tatkal Railway Reservation</div>
+                                    <div class="">Book tatkal train tickets quikly</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="interlink__icon"><span class="ixi-icon-chevron"></span></div>
+                    </a>
+                    <a href="https://www.ixigo.com/trains/platform-locator" class="card text-decoration-none col-3 mx-auto text-secondary">
+                    <div class="card-body">
+                        <div class="d-flex flex-row">
+                            <img src="https://images.ixigo.com/image/upload/trains/trains/1d820492523e3c3b0bd47abaf76c3107-gwnxv.png" height="56" width="56"  />
+                            <div class="ms-2">
+                                <div class="">Train Platform Locator</div>
+                                <div class="">Locate your train platform number</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interlink__icon"><span class="ixi-icon-chevron"></span></div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
