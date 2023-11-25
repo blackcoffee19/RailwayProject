@@ -22,7 +22,7 @@ namespace RailwayProject.Models
         [Range(0, int.MaxValue)]
         public int Distance { get; set;}
         [Range(0, int.MaxValue)]
-        public int TravelTime { get; set; }
+        public double TravelTime { get; set; }
         [Range(0,int.MaxValue)]
         public int DelayTime { get; set; }
     }

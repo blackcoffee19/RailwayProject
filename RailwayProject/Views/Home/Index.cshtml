@@ -29,7 +29,7 @@
         <div class="tab-content z-2 bg-white pt-3 px-4" id="myTabContent" style="height: 200px;width: 800px;border-radius: 0 0 4px 4px;">
             <div id="trainSearchForm" class="tab-pane fade show active w-100" role="tabpanel" tabindex="0">
                 <div class="d-flex flex-row justify-content-center align-items-center">
-                    <form class="row">
+                    <form class="row" method="get" asp-action="SearchRoute">
                         <div class="col-md-4 ">
                             <label for="gaDi" class="form-label">From</label>
                             <input id="gaDi" name="gaDi" class="form-control" type="text" />
